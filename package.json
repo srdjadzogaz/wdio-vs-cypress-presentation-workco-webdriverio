@@ -1,0 +1,41 @@
+{
+  "name": "study-group",
+  "version": "1.0.0",
+  "description": "Practice repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run wdio.conf.js",
+    "wdio:head": "headless=yes yarn wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srdjadzogaz/study-group.git"
+  },
+  "author": "\"SrdjaDzogaz\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srdjadzogaz/study-group/issues"
+  },
+  "homepage": "https://github.com/srdjadzogaz/study-group#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7",
+    "@wdio/cli": "^7.20.3",
+    "@wdio/dot-reporter": "^7.20.3",
+    "@wdio/local-runner": "^7.20.3",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "@wdio/sync": "^7.20.3",
+    "chromedriver": "^>=102.0.0",
+    "wdio-axe": "^2.2.3",
+    "wdio-chromedriver-service": "^7.3.2"
+  },
+  "dependencies": {
+    "@axe-core/webdriverio": "^4.4.4",
+    "assert": "^2.0.0",
+    "axe-core": "^4.4.3",
+    "chai": "^4.3.6"
+  }
+}
