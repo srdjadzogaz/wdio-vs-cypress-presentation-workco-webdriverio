@@ -20,8 +20,6 @@ exports.config = {
     {
       browserName: 'chrome',
       browser_version: 'latest',
-      os: 'Windows',
-      os_version: '10',
     },
   ],
 
@@ -29,7 +27,7 @@ exports.config = {
 
   bail: 0,
 
-  baseUrl: 'https://www.saucedemo.com',
+  baseUrl: 'https://www.saucedemo.com/',
 
   waitforTimeout: 5000,
 

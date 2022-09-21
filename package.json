@@ -29,6 +29,7 @@
     "@wdio/spec-reporter": "^7.20.3",
     "@wdio/sync": "^7.20.3",
     "chromedriver": "^>=102.0.0",
+    "chai-webdriverio": "^0.2.0",
     "wdio-axe": "^2.2.3",
     "wdio-chromedriver-service": "^7.3.2"
   },
@@ -36,6 +37,7 @@
     "@axe-core/webdriverio": "^4.4.4",
     "assert": "^2.0.0",
     "axe-core": "^4.4.3",
-    "chai": "^4.3.6"
+    "chai": "^4.3.6",
+    "wdio-selenium-standalone-service": "0.0.8"
   }
 }
